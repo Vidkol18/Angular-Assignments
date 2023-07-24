@@ -1,0 +1,18 @@
+<div class="p-6 max-w-screen-xl mx-auto bg-white shadow-md flex-auto items-center space-x-4 my-6">
+
+  <div>
+    <div class="text-3xl font-medium text-black">{{header}}</div>
+    <hr class="w-full bg-black h-px my-2">
+    <div class="p-6 bg-gray-200 object-center shadow-md m-3">
+      <div>
+
+
+        <div class="bg-gray-50 mb-6 flex-col p-6">
+          <ng-content select="[description]"></ng-content>
+        </div>
+        <ng-content></ng-content>
+      </div>
+    </div>
+  </div>
+
+</div>
